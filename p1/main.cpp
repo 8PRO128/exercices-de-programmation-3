@@ -17,5 +17,9 @@ int main() {
   Etudiant* etudiant = new Etudiant();
   string nom_etudiant = "Eduardo";
 
+  delete salle;
+  delete cours;
+  delete etudiant;
+
   return 0;
 }
